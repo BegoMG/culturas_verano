@@ -1,0 +1,510 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #fff;
+  color: #111;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  
+  /* overflow-x: hidden; */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+
+div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+}
+
+
+
+/* FONTS */
+
+@font-face {
+  font-family: 'HBold';
+  src: url('https://static.lavanguardia.com/css/fonts/v2/TiemposHeadline-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'HSemibold';
+  src: url('https://lavanguardia-github.github.io/tipos/TiemposHeadline-Semibold.woff2') format('woff');
+}
+
+
+@font-face {
+  font-family: 'TRegular';
+  src: url('https://static.lavanguardia.com/css/fonts/v2/TiemposText-Regular.woff2') format('woff2');
+}
+
+
+
+
+
+/* INTRO */
+
+
+.caratulaIntro {
+  width: 100vw;
+  height: 100dvh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.contenedor-imagen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('img/mov_conLogo.png');
+}
+
+
+
+
+
+@media (min-width: 500px) {
+  .contenedor-imagen {
+    background-image: url('img/desk_conLogo.png');
+        background-size: contain;
+  }
+}
+
+.lv_intro {
+  width: 100%;
+  margin: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.lv_intro p {
+  font-family: 'TRegular', serif;
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 650px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: -.1px;
+  word-wrap: break-word;
+}
+
+
+
+
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+.lv_warning{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.lv_warning{
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  margin-bottom:20px;
+  text-align: center;
+}
+
+
+.lv_warning span{
+  display: inline-block;
+  margin-right:12px;
+  width: 50px;
+  height: 50px;
+  background-image: url('/icons/swap1.png');
+  background-position: center;
+  background-size: contain;
+  
+}
+
+
+
+
+
+
+/* CARRUSEL */
+
+.swiper {
+  margin-bottom: 80px;
+}
+
+.swiper-slide {
+  text-align: center;
+  cursor: pointer;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  filter: brightness(0) invert(0); /* negro */
+  opacity: 1;
+}
+
+.recomanador{
+  padding-bottom: 12px;
+}
+
+.foto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.nombre {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.portadaL{
+  width: 100%;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:12px;
+}
+
+.caratula {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+  border-radius: 4px;
+}
+
+.info {
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.titulo {
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* Resenyas */
+
+.resenya {
+  background-color: #dfdcdc;
+  padding: 18px;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 6px;
+  position: relative;
+}
+
+.resenya::before {
+  content: "";
+  position: absolute;
+  top: -22px; /* separada un poco de la caja */
+    left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 26px solid transparent;
+  border-right: 26px solid transparent;
+  border-bottom: 26px solid #dfdcdc; /* mismo color que el fondo de .resenya */
+}
+
+.resenyaWrapper {
+  padding: 20px 6px;
+  display:flex;
+  justify-content: center;
+
+}
+
+
+.resenyaWrapper p{
+    font-family: 'TRegular', serif;
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 650px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: -.1px;
+  word-wrap: break-word;
+
+}
+
+
+
+
+
+
+/* Contenedor piezas */
+
+
+#lv_contenidor{
+  position: relative;
+  width: 100vw;
+  margin-top: 200px;
+  background-color: #f0715d;
+  display: flex;
+  justify-content: center;
+
+}
+
+.lv_corona {
+  position: absolute;
+  top: -70px; /* ajusta según el alto de tu SVG */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2; /* por si hay solapamientos */
+  width: 120px; /* ajusta según el tamaño del SVG */
+  height: auto;
+}
+
+.lv_corona img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
+.lv_contenidorWrapper{
+  width: 100%;
+  max-width: 900px;
+  padding: 150px 10px 100px;
+
+
+}
+
+
+.lv_titContenidor{
+  display:flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  font-family: 'HBold', serif;
+  margin-bottom: 25px;
+}
+
+
+.lv_titContenidor h4{
+  font-size: 32px;
+  margin-bottom:12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.lv_icono{
+  display: inline-block;
+  width: 30px;
+  height: 35px;
+  background-image: url(icons/slashes.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.lv_titContenidor h5{
+  font-size: 22px;
+}
+
+
+.ve_piezasContenedor {
+  margin-top:80px;
+}
+
+.ve_piezasLista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.ve_piezaItem {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #ffaa9d;
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.ve_piezaImg {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.ve_piezaIcon{
+  width: 36px;
+  height: 56px;
+  margin-right: 0.5rem;
+  flex-shrink: 0;
+  display: inline-block;
+  background-image: url(icons/slashes.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.ve_piezaContenido {
+  flex: 1;
+
+}
+
+.ve_piezaEnlace {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.lv_iconoPetit {
+  width: 16px;
+  height: 26px;
+  margin-right: 0.5rem;
+  flex-shrink: 0;
+  display: inline-block;
+  background-image: url(icons/slashes.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+.ve_piezaTitular {
+  width: 100%;
+  line-height: 1.2;
+  font-weight: bold;
+  font-family: 'HSemibold', serif;
+  font-size: 17px;
+}
+
+.ve_piezaAutor {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 10px; /* indentado tras icono */
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+}
+
+}
+
+
+@media (min-width: 767px) {
+  .lv_intro p {
+    font-size: 22px;
+
+  }
+
+
+  .lv_titContenidor h4{
+    font-size: 52px;
+    
+
+  }
+
+  .lv_titContenidor h5{
+    font-size: 32px;
+  }
+
+
+  .lv_icono{
+    width: 35px;
+    height: 45px;
+    
+
+  }
+
+
+  .ve_piezaTitular {
+    font-size: 22px;
+  }
+
+
+
+
+
+
+
+}
