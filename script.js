@@ -154,7 +154,7 @@ const libros = [
   },
       {
     recomendador: "Inés Pich Aguilera",
-    fotoRecomendador: "img/avatares/autor.webp",
+    fotoRecomendador: "img/avatares/autor18.png",
     caratula: "img/portadas/libro18.jpeg",
     titulo: "Como bestias",
     autor: "Violaine Bérot",
