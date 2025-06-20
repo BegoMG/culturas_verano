@@ -6,7 +6,7 @@ const libros = [
     titulo: "El nuevo espíritu del mundo",
     autor: "Esteban Hernández",
     editorial: "Deusto",
-    resenya: "De Esteban Hernández siempre me ha llamado la atención la facilidad con la que describe los conflictos e incertezas que nos rodean y cómo aporta siempre una mirada lúcida que te invita a pensar. Es lo mejor que le podemos pedir a un ensayista. Lo ha vuelto a hacer con su último libro, El nuevo espíritu del mundo, que está de vigente actualidad por las políticas de Donald Trump. El mundo al que vamos es cada día más incierto, pero Esteban nos proporciona una brújula para orientarnos."
+    resenya: "De Esteban Hernández siempre me ha llamado la atención la facilidad con la que describe los conflictos e incertezas que nos rodean y cómo aporta siempre una mirada lúcida que te invita a pensar. Es lo mejor que le podemos pedir a un ensayista. Lo ha vuelto a hacer con su último libro, 'El nuevo espíritu del mundo', que está de vigente actualidad por las políticas de Donald Trump. El mundo al que vamos es cada día más incierto, pero Esteban nos proporciona una brújula para orientarnos."
   },
   {
     recomendador: "Miquel Molina",
@@ -37,7 +37,7 @@ const libros = [
   },
   {
     recomendador: "Ignasi Moya",
-    fotoRecomendador: "img/avatares/autor.webp",
+    fotoRecomendador: "img/avatares/autor5.png",
     caratula: "img/portadas/libro5.jpeg",
     titulo: "Nadie nos llamará antepasados",
     autor: "Bruno Galindo",
@@ -46,16 +46,16 @@ const libros = [
   },
   {
     recomendador: "Juan Ángel Juristo",
-    fotoRecomendador: "img/avatares/autor.webp",
+    fotoRecomendador: "img/avatares/autor6.png",
     caratula: "img/portadas/libro6.jpeg",
     titulo: "Cárcel de tinieblas",
     autor: "Juan Manuel de Prada",
     editorial: "Espasa",
-    resenya: "Esta segunda parte de la novela de Juan Manuel de Prada, Mil ojos esconde la noche, es el final de uno de los proyectos literarios de más alcance que se ha visto en la literatura en castellano de los últimos años, al margen de modas. El autor describe el París de la Ocupación con una imaginación desbordante, una muy buena documentación y un lenguaje que alcanza a Cervantes y Quevedo en sus referencias."
+    resenya: "Esta segunda parte de la novela de Juan Manuel de Prada, 'Mil ojos esconde la noche', es el final de uno de los proyectos literarios de más alcance que se ha visto en la literatura en castellano de los últimos años, al margen de modas. El autor describe el París de la Ocupación con una imaginación desbordante, una muy buena documentación y un lenguaje que alcanza a Cervantes y Quevedo en sus referencias."
   },
     {
     recomendador: "Inés Macpherson",
-    fotoRecomendador: "img/avatares/autor.webp",
+    fotoRecomendador: "img/avatares/autor7.png",
     caratula: "img/portadas/libro7.webp",
     titulo: "Que morin els fills dels altres",
     autor: "Roser Cabré-Verdiell",
@@ -96,7 +96,7 @@ const libros = [
     titulo: "Una familia moderna",
     autor: "Helga Flatland",
     editorial: "Nórdica",
-    resenya: "Una pareja mayor convoca a hijos y nietos a celebrar los setenta años del abuelo. Pero el feliz cumpleaños esconde una sorpresa… Compuesta por los monólogos de los personajes, Una familia moderna nos invita a reflexionar sobre la relación entre cónyuges, padres, hijos, hermanos… Una novela inteligente y sensible, en la que de un modo u otro nos reconocemos todas/os."
+    resenya: "Una pareja mayor convoca a hijos y nietos a celebrar los setenta años del abuelo. Pero el feliz cumpleaños esconde una sorpresa… Compuesta por los monólogos de los personajes, 'Una familia moderna' nos invita a reflexionar sobre la relación entre cónyuges, padres, hijos, hermanos… Una novela inteligente y sensible, en la que de un modo u otro nos reconocemos todas/os."
   },
       {
     recomendador: "Jordi Llavina",
@@ -145,7 +145,7 @@ const libros = [
   },
         {
     recomendador: "David Castillo",
-    fotoRecomendador: "img/avatares/autor.webp",
+    fotoRecomendador: "img/avatares/autor17.png",
     caratula: "img/portadas/libro17.jpeg",
     titulo: "Londres",
     autor: "Louis-Ferdinand Céline",
@@ -186,7 +186,7 @@ const libros = [
     titulo: "El asesinato de los Aosawa",
     autor: "Riku Onda",
     editorial: "Salamandra",
-    resenya: "Un día caluroso, resguárdese con una limonada -preparada por usted, ya lo entenderá- y déjese llevar a una mansión en la costa japonesa. Un día igual de tórrido, aunque de 1970, los invitados a una fiesta perecerán, excepto una chica ciega con un recuerdo de tonos azulados. El cómo y el quién fabulado por Riku Onda en El asesinato de los Aosawa le deslumbrarán."
+    resenya: "Un día caluroso, resguárdese con una limonada -preparada por usted, ya lo entenderá- y déjese llevar a una mansión en la costa japonesa. Un día igual de tórrido, aunque de 1970, los invitados a una fiesta perecerán, excepto una chica ciega con un recuerdo de tonos azulados. El cómo y el quién fabulado por Riku Onda en 'El asesinato de los Aosawa' le deslumbrarán."
   },
       {
     recomendador: "Magí Camps",
@@ -199,12 +199,12 @@ const libros = [
   },
         {
     recomendador: "Eva Muñoz",
-    fotoRecomendador: "img/avatares/autor.webp",
+    fotoRecomendador: "img/avatares/autor23.jpg",
     caratula: "img/portadas/libro23.jpeg",
     titulo: "La habitación de las ahogadas",
     autor: "Alana S. Portero",
     editorial: "La Bella Varsovia",
-    resenya: "La mejor Alana S. Portero está en su poesía. Es ahí donde la autora forjó la voz que luego construyó su narrativa; una voz de una gran intensidad y altísima calidad lírica. El poemario La habitación de las ahogadas es la búsqueda de una identidad y parece un conjuro a vida o muerte; enraíza en lo ancestral desde un pulso contemporáneo."
+    resenya: "La mejor Alana S. Portero está en su poesía. Es ahí donde la autora forjó la voz que luego construyó su narrativa; una voz de una gran intensidad y altísima calidad lírica. El poemario 'La habitación de las ahogadas' es la búsqueda de una identidad y parece un conjuro a vida o muerte; enraíza en lo ancestral desde un pulso contemporáneo."
   },
       {
     recomendador: "Toni Montesinos",
@@ -213,7 +213,7 @@ const libros = [
     titulo: "Bahía de Sal",
     autor: "Gabriela Guerra",
     editorial: "Traveler",
-    resenya: "No puede llamarse menos que obra maestra esta historia, realista-mágica y metafórica, lírica y crítica, sobre un pueblo costero y las vicisitudes de unas gentes enfrentadas a la vida más descarnada. Ganadora del premio Juan Rulfo 2016, es la primera de una trilogía de la que ya se ha publicado Avándaro, la segunda, en la misma editorial."
+    resenya: "No puede llamarse menos que obra maestra esta historia, realista-mágica y metafórica, lírica y crítica, sobre un pueblo costero y las vicisitudes de unas gentes enfrentadas a la vida más descarnada. Ganadora del premio Juan Rulfo 2016, es la primera de una trilogía de la que ya se ha publicado 'Avándaro', la segunda, en la misma editorial."
   },
         {
     recomendador: "Lara Gómez",
@@ -222,7 +222,7 @@ const libros = [
     titulo: "Calabobos",
     autor: "Luis Mario",
     editorial: "Reservoir Books",
-    resenya: "El verano es ese momento del año en el que uno regresa al pueblo y vuelve a ver a los familiares y amigos de toda la vida. Luis Mario también lo hace, pero pide que no idealicemos estos lugares, ya que “no son tan bucólicos como nos empeñamos que sean”. Eso no quita que no sirvan de inspiración para las novelas, incluida la suya, Calabobos. Se trata de un relato mitológico que invita al lector a recorrer Cantabria, sus gentes y seres fantásticos con un lenguaje oral que invita a viajar a cualquiera."
+    resenya: "El verano es ese momento del año en el que uno regresa al pueblo y vuelve a ver a los familiares y amigos de toda la vida. Luis Mario también lo hace, pero pide que no idealicemos estos lugares, ya que “no son tan bucólicos como nos empeñamos que sean”. Eso no quita que no sirvan de inspiración para las novelas, incluida la suya, 'Calabobos'. Se trata de un relato mitológico que invita al lector a recorrer Cantabria, sus gentes y seres fantásticos con un lenguaje oral que invita a viajar a cualquiera."
   },
       {
     recomendador: "Alexis Racionero Ragué",
@@ -240,7 +240,7 @@ const libros = [
     titulo: "Sau",
     autor: "Ferran Garcia",
     editorial: "Males Herbes",
-    resenya: "Esclavos guineanos trasplantados al corazón de Catalunya, un fantasma, dos cowboys crepusculares mientras se construye el pantano de Sau, pueblo inmerso en un cambio de época que lo arrasará todo, historias que, como afluentes, desembocan en un río principal donde todo se embalsa y las aguas se salen de madre. La novela más ambiciosa de Garcia, que ya había sorprendido los lectores con Guilleries."
+    resenya: "Esclavos guineanos trasplantados al corazón de Catalunya, un fantasma, dos cowboys crepusculares mientras se construye el pantano de Sau, pueblo inmerso en un cambio de época que lo arrasará todo, historias que, como afluentes, desembocan en un río principal donde todo se embalsa y las aguas se salen de madre. La novela más ambiciosa de Garcia, que ya había sorprendido los lectores con 'Guilleries'."
   },
 
 ];
